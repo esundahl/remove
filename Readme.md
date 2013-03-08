@@ -35,17 +35,17 @@ array.remove(0, -3); // array = [2, 4]
 
 ```javascript
 
-  // Remove the second item from the array
-  array.remove(1);
+// Remove the second item from the array
+array.remove(1);
   
-  // Remove the second-to-last item from the array
-  array.remove(-2);
+// Remove the second-to-last item from the array
+array.remove(-2);
   
-  // Remove the second and third items from the array
-  array.remove(1,2);
+// Remove the second and third items from the array
+array.remove(1,2);
   
-  // Remove the last and second-to-last items from the array
-  array.remove(-2,-1);
+// Remove the last and second-to-last items from the array
+array.remove(-2,-1);
   
 ```
 
