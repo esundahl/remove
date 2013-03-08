@@ -15,7 +15,7 @@
 var remove = require('remove');
 var array = [1, 2, 3, 4];
 
-remove(array, 0, -3); // array = [2, 4]
+remove(array, 0, -2); // array = [2, 4]
 
 ```
 
@@ -28,7 +28,18 @@ var Remove = require('remove');
 var array = [1, 2, 3, 4];
 
 Remove(array);
-array.remove(0, -3); // array = [2, 4]
+array.remove(0, -2); // array = [2, 4]
+
+```
+
+  
+  As Array.prototype mixin:
+
+```javascript
+
+var Remove = require('remove');
+Remove(Array.prototype);
+[1, 2, 3, 4].remove(0, -2); // array = [2, 4]
 
 ```
 

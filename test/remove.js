@@ -48,4 +48,9 @@ describe('Remove', function(){
     array.should.not.include(3, 5, 9, 10)
   })
 
+  it('should extend Array.prototype', function(){
+    Remove(Array.prototype);
+    [].remove.should.be.a('function')
+  })
+
 });
