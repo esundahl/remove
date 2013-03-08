@@ -1,7 +1,7 @@
 
 # Remove
 
-  Array.remove function based off of John Resig's "[JavaScript Array Remove](http://ejohn.org/blog/javascript-array-remove/)" post
+  Array.remove function based off of John Resig's "[JavaScript Array Remove](http://ejohn.org/blog/javascript-array-remove/)"
 ## Installation
 
     $ component install esundahl/remove
