@@ -1,0 +1,13 @@
+{
+  "name": "remove",
+  "repo": "esundahl/remove",
+  "description": "removes an object from an array",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}
