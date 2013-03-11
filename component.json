@@ -5,7 +5,9 @@
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {},
-  "development": {},
+  "development": {
+    "yields/isArray": "*"
+  },
   "license": "MIT",
   "scripts": [
     "index.js"
